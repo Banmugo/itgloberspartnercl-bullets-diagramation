@@ -12,7 +12,7 @@ export const getBulletsAsTSXList = (
 ) => (
   bullets.map((bullet: Bullet, index) =>{
     return <div key={index}>
-      <a href={bullet?.link?.url ? bullet?.link?.url : ""}>
+      <a href={bullet?.link?.url ? bullet?.link?.url : ""}> 
         <p>{bullet?.titleBullet}</p>
         <p>{bullet?.image}</p>
       </a>
