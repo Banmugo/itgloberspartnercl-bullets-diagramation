@@ -1,7 +1,29 @@
+.bullet__container {
+  display: flex;
+  overflow: auto;
+}
+
 .bullet__item
 .bullet__item--image{
-  width: 70px;
+  width: 80px;
+  min-width: 80px;
   height: 120px;
+}
+
+.bullet__container::-webkit-scrollbar {
+  height: 4px;
+}
+
+.bullet__container::-webkit-scrollbar-track 
+.bullet__container::-webkit-scrollbar-thumb {
+  background-clip: padding-box;
+  background-color: #858585;
+  border-right: 16px solid transparent;
+  border-left: 16px solid transparent;
+}
+
+.bullet__container::-webkit-scrollbar-thumb {
+  background-color: #000;
 }
 
 .bullet__item{
