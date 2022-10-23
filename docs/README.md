@@ -1,7 +1,7 @@
 
 # BULLETS DIAGRAMATION (custom app) 
 
-input that will allow a quick purchase on my VTEX IO site
+It is a context of elements that will render the lower levels of navigation within a list of bullets with images.
 
 View Desktop
 ![image](https://user-images.githubusercontent.com/94867719/197371505-0fc95f4a-ad13-454c-b5eb-7b136418334b.png)
