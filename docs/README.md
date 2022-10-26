@@ -65,8 +65,11 @@ then just declare the property name of the custos component, in the desired plac
 ## Dependencies:
 
 1."vtex.native-types": "0.x"
+
 2."vtex.list-context": "0.x"
+
 3."vtex.device-detector": "0.x"
+
 4."vex.css-handles": "0.x"
 
 
